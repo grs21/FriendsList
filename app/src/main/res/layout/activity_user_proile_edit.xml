@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.UserProfileEditActivity">
+
+    <Button
+        android:id="@+id/buttonEditChanceImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/button_chance_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewEditProfileName" />
+
+    <ImageView
+        android:id="@+id/imageViewEditProfileName"
+        android:layout_width="371dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@android:color/holo_blue_light"/>
+
+    <EditText
+        android:id="@+id/editTextEditLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:autofillHints="no"
+        android:ems="10"
+        android:hint="@string/textView_lastName"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/editTextEditUserName"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEditUserName" />
+
+    <EditText
+        android:id="@+id/editTextEditPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/textView_phone"
+        app:layout_constraintStart_toStartOf="@+id/editTextEditLastName"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEditLastName" />
+
+    <EditText
+        android:id="@+id/editTextEditTwitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/textView_go_to_twitter"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/editTextEditPhone"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEditPhone" />
+
+    <EditText
+        android:id="@+id/editTextEditAlbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/textVİew_album_profile"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/editTextEditTwitter"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEditTwitter" />
+
+    <EditText
+        android:id="@+id/editTextEditUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/textView_firstName"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="@+id/imageViewEditProfileName"
+        app:layout_constraintTop_toBottomOf="@+id/buttonEditChanceImage" />
+
+    <Button
+        android:id="@+id/buttonEditDeleteProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/button_delete_profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/editTextEditAlbum"
+        app:layout_constraintTop_toBottomOf="@+id/buttonEditSave" />
+
+    <Button
+        android:id="@+id/buttonEditSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="46dp"
+        android:text="@string/save"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editTextEditLastName"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/buttonEditToFriendsProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/profile"
+        app:layout_constraintStart_toStartOf="@+id/buttonEditSave"
+        app:layout_constraintTop_toBottomOf="@+id/buttonEditSave" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

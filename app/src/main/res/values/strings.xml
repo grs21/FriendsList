@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Friends</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="button_login">Login</string>
+    <string name="loginTitle">Friends</string>
+    <string name="loginEmailHint">Enter Your Email</string>
+    <string name="button_searchFriends">SearchFriends</string>
+    <string name="button_new_account">New Account!</string>
+    <string name="textVİew_registration_page_title">Registration</string>
+    <string name="textView_create_new_account">Create new Account</string>
+    <string name="button_create_new_account">Create new Account</string>
+    <string name="textView_lastName">Last Name</string>
+    <string name="textView_firstName">First Name</string>
+    <string name="button_edit_profile">Edit profile</string>
+    <string name="textVİew_album_profile">AlbumProfile</string>
+    <string name="button_chance_image">Chance Image</string>
+    <string name="textView_phone">Phone</string>
+    <string name="textView_go_to_twitter">Go to Twitter</string>
+    <string name="button_delete_profile">DELETE PROFILE</string>
+    <string name="save">save</string>
+    <string name="profile">profile</string>
+</resources>
